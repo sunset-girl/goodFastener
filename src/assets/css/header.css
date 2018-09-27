@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0
+}
+ul li{
+
+list-style-type: none;
+}
+.top .left{
+  margin:28px 0;
+  float: left
+}
+.top .right{
+ margin:13px 0;
+ float: right;
+ letter-spacing: 1px;
+ position: relative;
+}
+.top .right ul li{
+ float: left;
+ font-size:18px;
+ margin: 48px 0;
+ margin-left: 59px;
+ letter-spacing: 0px;
+ height: 24px;
+}
+.top .right ul li:hover,
+.active{
+ color: rgb(241, 193, 178);
+ cursor: pointer;
+}
+.aboutss ul li.newss{
+  margin:4px 0 0 0;
+}
+.top .right ul li.aboutss{
+  margin:0;
+  display: none;
+}
+.top .right .changsLange{
+  position: absolute;
+  right: -168px;
+  top: -6px;
+}
+
+.el-input .el-input__suffix-inner {
+  display: none !important;
+}

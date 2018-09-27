@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1200, initial-scale=0.1, maximum-scale=1.0, user-scalable=yes">
+    <meta name="Description" content="Button Up is a an E-Commerce platform for creative goods and affordable luxury. We gathering independent designers, brands and luxury goods buyers from all over the world. we believe that every merchandise we sell have unique characteristics and soul. As small as a button, can express a different spirit of independence.">
+    <meta name="Keywords" content="Buttonup, Buttonupup, Button up, luxury, affordable luxury, Global purchase, overseas purchase, independent designer, living expert, and overseas brands.">
+    <meta name="title" content="Button Up.  A E-Commerce platform for creative goods and affordable luxury">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <script>
+        let oMeta = document.getElementsByTagName('meta')['Description'];
+            oMeta.content =  sessionStorage.getItem('Description') || 'Button Up is a an E-Commerce platform for creative goods and affordable luxury. We gathering independent designers, brands and luxury goods buyers from all over the world. we believe that every merchandise we sell have unique characteristics and soul. As small as a button, can express a different spirit of independence.'
+        let oMeta1 = document.getElementsByTagName('meta')['Keywords'];
+            oMeta1.content = sessionStorage.getItem('Keywords') || 'Buttonup, Buttonupup, Button up, luxury, affordable luxury, Global purchase, overseas purchase, independent designer, living expert, and overseas brands.'
+        let oMeta2 = document.getElementsByTagName('meta')['title'];
+            oMeta2.content = sessionStorage.getItem('Keywords') || 'Button Up.  A E-Commerce platform for creative goods and affordable luxury'
+
+        console.log("oMeta=xixi"+oMeta.content)
+        console.log("oMeta1=xixi"+oMeta1.content)
+        console.log("oMeta2=xixi"+oMeta2.content)
+         // var oMeta1 = document.getElementsByTagName('Keywords')
+         // document.getElementsByTagName('head')[0].appendChild(oMeta);
+         //var oMeta1 = document.createElement('meta');
+           // oMeta1.name = 'Keywords';
+           // oMeta1.content = sessionStorage.getItem('Keywords') || 'Buttonup, Buttonupup, Button up, luxury, affordable luxury, Global purchase, overseas purchase, independent designer, living expert, and overseas brands.'
+       // document.getElementsByTagName('head')[0].appendChild(oMeta1);
+        // var oMeta2 = document.createElement('title');
+         //   oMeta2.innerHTML = sessionStorage.getItem('title') || 'Button Up.  A E-Commerce platform for creative goods and affordable luxury'
+       // document.getElementsByTagName('head')[0].appendChild(oMeta2);
+
+
+
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
